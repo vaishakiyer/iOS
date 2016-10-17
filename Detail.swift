@@ -15,6 +15,7 @@ class Detail
     var licenseNo: String?
     var licensePlate: String?
     var seats : String?
+    var engineCapacity: String?
 //    
 //    init(driver: String, model: Int, licenseNo: Int, seats: Int, licensePlate: Int) {
 //        self.driver = driver
