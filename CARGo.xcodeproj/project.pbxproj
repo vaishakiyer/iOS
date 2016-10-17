@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52000EE51D7A9FE30093DE01 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52000EE41D7A9FE30093DE01 /* SignUpController.swift */; };
+		52000EE71D7AA7560093DE01 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52000EE61D7AA7560093DE01 /* ProfileViewController.swift */; };
+		52000EE91D7ABEEC0093DE01 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52000EE81D7ABEEC0093DE01 /* User.swift */; };
+		52000EEB1D7AD12C0093DE01 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52000EEA1D7AD12C0093DE01 /* Ride.swift */; };
+		52000EF11D7AD2C10093DE01 /* RideTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52000EF01D7AD2C10093DE01 /* RideTableViewController.swift */; };
+		52000EF31D7AFD880093DE01 /* AddRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52000EF21D7AFD880093DE01 /* AddRideViewController.swift */; };
+		5214D11D1D99332D0004AD9B /* AcceptDeclineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5214D11C1D99332D0004AD9B /* AcceptDeclineViewController.swift */; };
+		523A8CA01D89624900D6F21D /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A8C9F1D89624900D6F21D /* Location.swift */; };
+		52B76FF21D8FC0DC00549D9A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B76FF11D8FC0DC00549D9A /* Model.swift */; };
+		52C5F9AA1D7F03CE0089AA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C5F9A91D7F03CE0089AA5D /* Main.storyboard */; };
+		52C9DE3F1D7F0F6A007A4D84 /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9DE3E1D7F0F6A007A4D84 /* SigninViewController.swift */; };
+		52C9DE431D7FE32E007A4D84 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9DE421D7FE32E007A4D84 /* CarViewController.swift */; };
+		52C9DE491D802CF9007A4D84 /* WaitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C9DE481D802CF9007A4D84 /* WaitViewController.swift */; };
+		52CEBD731D94E4BA00B721F4 /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CEBD721D94E4BA00B721F4 /* SourceViewController.swift */; };
+		52F38FB11D79AD78007E2768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F38FB01D79AD78007E2768 /* AppDelegate.swift */; };
+		52F38FBB1D79AD78007E2768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F38FB91D79AD78007E2768 /* LaunchScreen.storyboard */; };
+		52F38FC61D79AD78007E2768 /* CARGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F38FC51D79AD78007E2768 /* CARGoTests.swift */; };
+		52F38FD11D79AD78007E2768 /* CARGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F38FD01D79AD78007E2768 /* CARGoUITests.swift */; };
+		52F849C41D9143F4005CB1CA /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F849C31D9143F4005CB1CA /* Detail.swift */; };
+		52F89B3E1D7C1E660018E7CB /* RideDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F89B3D1D7C1E660018E7CB /* RideDetailViewController.swift */; };
+		52FF64041D7A918C0044E6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FF64031D7A918C0044E6F8 /* Assets.xcassets */; };
+		52FF64061D7A9A3B0044E6F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF64051D7A9A3B0044E6F8 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52F38FC21D79AD78007E2768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F38FA51D79AD78007E2768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F38FAC1D79AD78007E2768;
+			remoteInfo = CARGo;
+		};
+		52F38FCD1D79AD78007E2768 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52F38FA51D79AD78007E2768 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F38FAC1D79AD78007E2768;
+			remoteInfo = CARGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52000EE41D7A9FE30093DE01 /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		52000EE61D7AA7560093DE01 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		52000EE81D7ABEEC0093DE01 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		52000EEA1D7AD12C0093DE01 /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ride.swift; path = ../Ride.swift; sourceTree = "<group>"; };
+		52000EF01D7AD2C10093DE01 /* RideTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RideTableViewController.swift; path = ../RideTableViewController.swift; sourceTree = "<group>"; };
+		52000EF21D7AFD880093DE01 /* AddRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddRideViewController.swift; path = ../AddRideViewController.swift; sourceTree = "<group>"; };
+		5214D11C1D99332D0004AD9B /* AcceptDeclineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcceptDeclineViewController.swift; sourceTree = "<group>"; };
+		523A8C9F1D89624900D6F21D /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		52B76FF11D8FC0DC00549D9A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Model.swift; path = ../Model.swift; sourceTree = "<group>"; };
+		52C5F9A91D7F03CE0089AA5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		52C9DE3E1D7F0F6A007A4D84 /* SigninViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
+		52C9DE421D7FE32E007A4D84 /* CarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarViewController.swift; path = ../CarViewController.swift; sourceTree = "<group>"; };
+		52C9DE481D802CF9007A4D84 /* WaitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitViewController.swift; sourceTree = "<group>"; };
+		52CEBD721D94E4BA00B721F4 /* SourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SourceViewController.swift; path = ../SourceViewController.swift; sourceTree = "<group>"; };
+		52F38FAD1D79AD78007E2768 /* CARGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F38FB01D79AD78007E2768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52F38FBA1D79AD78007E2768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52F38FBC1D79AD78007E2768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F38FC11D79AD78007E2768 /* CARGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CARGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F38FC51D79AD78007E2768 /* CARGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARGoTests.swift; sourceTree = "<group>"; };
+		52F38FC71D79AD78007E2768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F38FCC1D79AD78007E2768 /* CARGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CARGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F38FD01D79AD78007E2768 /* CARGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CARGoUITests.swift; sourceTree = "<group>"; };
+		52F38FD21D79AD78007E2768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52F849C31D9143F4005CB1CA /* Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Detail.swift; path = ../Detail.swift; sourceTree = "<group>"; };
+		52F89B3D1D7C1E660018E7CB /* RideDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RideDetailViewController.swift; path = ../RideDetailViewController.swift; sourceTree = "<group>"; };
+		52FF64031D7A918C0044E6F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FF64051D7A9A3B0044E6F8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52F38FAA1D79AD78007E2768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F38FBE1D79AD78007E2768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F38FC91D79AD78007E2768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F38FA41D79AD78007E2768 = {
+			isa = PBXGroup;
+			children = (
+				52F38FAF1D79AD78007E2768 /* CARGo */,
+				52F38FC41D79AD78007E2768 /* CARGoTests */,
+				52F38FCF1D79AD78007E2768 /* CARGoUITests */,
+				52F38FAE1D79AD78007E2768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52F38FAE1D79AD78007E2768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F38FAD1D79AD78007E2768 /* CARGo.app */,
+				52F38FC11D79AD78007E2768 /* CARGoTests.xctest */,
+				52F38FCC1D79AD78007E2768 /* CARGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52F38FAF1D79AD78007E2768 /* CARGo */ = {
+			isa = PBXGroup;
+			children = (
+				52FF64031D7A918C0044E6F8 /* Assets.xcassets */,
+				52C5F9A91D7F03CE0089AA5D /* Main.storyboard */,
+				52C9DE3E1D7F0F6A007A4D84 /* SigninViewController.swift */,
+				52F38FB01D79AD78007E2768 /* AppDelegate.swift */,
+				52000EE61D7AA7560093DE01 /* ProfileViewController.swift */,
+				52CEBD721D94E4BA00B721F4 /* SourceViewController.swift */,
+				52F849C31D9143F4005CB1CA /* Detail.swift */,
+				52000EF21D7AFD880093DE01 /* AddRideViewController.swift */,
+				52000EE81D7ABEEC0093DE01 /* User.swift */,
+				523A8C9F1D89624900D6F21D /* Location.swift */,
+				52B76FF11D8FC0DC00549D9A /* Model.swift */,
+				52000EEA1D7AD12C0093DE01 /* Ride.swift */,
+				52C9DE421D7FE32E007A4D84 /* CarViewController.swift */,
+				5214D11C1D99332D0004AD9B /* AcceptDeclineViewController.swift */,
+				52000EF01D7AD2C10093DE01 /* RideTableViewController.swift */,
+				52F89B3D1D7C1E660018E7CB /* RideDetailViewController.swift */,
+				52000EE41D7A9FE30093DE01 /* SignUpController.swift */,
+				52FF64051D7A9A3B0044E6F8 /* ViewController.swift */,
+				52C9DE481D802CF9007A4D84 /* WaitViewController.swift */,
+				52F38FB91D79AD78007E2768 /* LaunchScreen.storyboard */,
+				52F38FBC1D79AD78007E2768 /* Info.plist */,
+			);
+			path = CARGo;
+			sourceTree = "<group>";
+		};
+		52F38FC41D79AD78007E2768 /* CARGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52F38FC51D79AD78007E2768 /* CARGoTests.swift */,
+				52F38FC71D79AD78007E2768 /* Info.plist */,
+			);
+			path = CARGoTests;
+			sourceTree = "<group>";
+		};
+		52F38FCF1D79AD78007E2768 /* CARGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52F38FD01D79AD78007E2768 /* CARGoUITests.swift */,
+				52F38FD21D79AD78007E2768 /* Info.plist */,
+			);
+			path = CARGoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52F38FAC1D79AD78007E2768 /* CARGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F38FD51D79AD78007E2768 /* Build configuration list for PBXNativeTarget "CARGo" */;
+			buildPhases = (
+				52F38FA91D79AD78007E2768 /* Sources */,
+				52F38FAA1D79AD78007E2768 /* Frameworks */,
+				52F38FAB1D79AD78007E2768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CARGo;
+			productName = CARGo;
+			productReference = 52F38FAD1D79AD78007E2768 /* CARGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52F38FC01D79AD78007E2768 /* CARGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F38FD81D79AD78007E2768 /* Build configuration list for PBXNativeTarget "CARGoTests" */;
+			buildPhases = (
+				52F38FBD1D79AD78007E2768 /* Sources */,
+				52F38FBE1D79AD78007E2768 /* Frameworks */,
+				52F38FBF1D79AD78007E2768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F38FC31D79AD78007E2768 /* PBXTargetDependency */,
+			);
+			name = CARGoTests;
+			productName = CARGoTests;
+			productReference = 52F38FC11D79AD78007E2768 /* CARGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52F38FCB1D79AD78007E2768 /* CARGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52F38FDB1D79AD78007E2768 /* Build configuration list for PBXNativeTarget "CARGoUITests" */;
+			buildPhases = (
+				52F38FC81D79AD78007E2768 /* Sources */,
+				52F38FC91D79AD78007E2768 /* Frameworks */,
+				52F38FCA1D79AD78007E2768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F38FCE1D79AD78007E2768 /* PBXTargetDependency */,
+			);
+			name = CARGoUITests;
+			productName = CARGoUITests;
+			productReference = 52F38FCC1D79AD78007E2768 /* CARGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52F38FA51D79AD78007E2768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vaishak iyer";
+				TargetAttributes = {
+					52F38FAC1D79AD78007E2768 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+					52F38FC01D79AD78007E2768 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 52F38FAC1D79AD78007E2768;
+					};
+					52F38FCB1D79AD78007E2768 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 52F38FAC1D79AD78007E2768;
+					};
+				};
+			};
+			buildConfigurationList = 52F38FA81D79AD78007E2768 /* Build configuration list for PBXProject "CARGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52F38FA41D79AD78007E2768;
+			productRefGroup = 52F38FAE1D79AD78007E2768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52F38FAC1D79AD78007E2768 /* CARGo */,
+				52F38FC01D79AD78007E2768 /* CARGoTests */,
+				52F38FCB1D79AD78007E2768 /* CARGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52F38FAB1D79AD78007E2768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C5F9AA1D7F03CE0089AA5D /* Main.storyboard in Resources */,
+				52F38FBB1D79AD78007E2768 /* LaunchScreen.storyboard in Resources */,
+				52FF64041D7A918C0044E6F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F38FBF1D79AD78007E2768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F38FCA1D79AD78007E2768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52F38FA91D79AD78007E2768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B76FF21D8FC0DC00549D9A /* Model.swift in Sources */,
+				52FF64061D7A9A3B0044E6F8 /* ViewController.swift in Sources */,
+				52F38FB11D79AD78007E2768 /* AppDelegate.swift in Sources */,
+				52000EF31D7AFD880093DE01 /* AddRideViewController.swift in Sources */,
+				52F89B3E1D7C1E660018E7CB /* RideDetailViewController.swift in Sources */,
+				52CEBD731D94E4BA00B721F4 /* SourceViewController.swift in Sources */,
+				52000EE71D7AA7560093DE01 /* ProfileViewController.swift in Sources */,
+				52000EF11D7AD2C10093DE01 /* RideTableViewController.swift in Sources */,
+				523A8CA01D89624900D6F21D /* Location.swift in Sources */,
+				52000EE91D7ABEEC0093DE01 /* User.swift in Sources */,
+				52F849C41D9143F4005CB1CA /* Detail.swift in Sources */,
+				5214D11D1D99332D0004AD9B /* AcceptDeclineViewController.swift in Sources */,
+				52C9DE3F1D7F0F6A007A4D84 /* SigninViewController.swift in Sources */,
+				52000EE51D7A9FE30093DE01 /* SignUpController.swift in Sources */,
+				52000EEB1D7AD12C0093DE01 /* Ride.swift in Sources */,
+				52C9DE431D7FE32E007A4D84 /* CarViewController.swift in Sources */,
+				52C9DE491D802CF9007A4D84 /* WaitViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F38FBD1D79AD78007E2768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F38FC61D79AD78007E2768 /* CARGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52F38FC81D79AD78007E2768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52F38FD11D79AD78007E2768 /* CARGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52F38FC31D79AD78007E2768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F38FAC1D79AD78007E2768 /* CARGo */;
+			targetProxy = 52F38FC21D79AD78007E2768 /* PBXContainerItemProxy */;
+		};
+		52F38FCE1D79AD78007E2768 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52F38FAC1D79AD78007E2768 /* CARGo */;
+			targetProxy = 52F38FCD1D79AD78007E2768 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52F38FB91D79AD78007E2768 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52F38FBA1D79AD78007E2768 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52F38FD31D79AD78007E2768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52F38FD41D79AD78007E2768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52F38FD61D79AD78007E2768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CARGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyervaishak.CARGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52F38FD71D79AD78007E2768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CARGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyervaishak.CARGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		52F38FD91D79AD78007E2768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CARGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyervaishak.CARGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CARGo.app/CARGo";
+			};
+			name = Debug;
+		};
+		52F38FDA1D79AD78007E2768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CARGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyervaishak.CARGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CARGo.app/CARGo";
+			};
+			name = Release;
+		};
+		52F38FDC1D79AD78007E2768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CARGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyervaishak.CARGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CARGo;
+			};
+			name = Debug;
+		};
+		52F38FDD1D79AD78007E2768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CARGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iyervaishak.CARGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CARGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52F38FA81D79AD78007E2768 /* Build configuration list for PBXProject "CARGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F38FD31D79AD78007E2768 /* Debug */,
+				52F38FD41D79AD78007E2768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F38FD51D79AD78007E2768 /* Build configuration list for PBXNativeTarget "CARGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F38FD61D79AD78007E2768 /* Debug */,
+				52F38FD71D79AD78007E2768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F38FD81D79AD78007E2768 /* Build configuration list for PBXNativeTarget "CARGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F38FD91D79AD78007E2768 /* Debug */,
+				52F38FDA1D79AD78007E2768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52F38FDB1D79AD78007E2768 /* Build configuration list for PBXNativeTarget "CARGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52F38FDC1D79AD78007E2768 /* Debug */,
+				52F38FDD1D79AD78007E2768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52F38FA51D79AD78007E2768 /* Project object */;
+}
